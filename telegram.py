@@ -3,7 +3,7 @@ import google.generativeai as genai
 import logging
 
 
-genai.configure(api_key="AIzaSyD_ICyLntqEPQ1d6Awaxa195wRu51_au8A")
+genai.configure(api_key="")
 #img = PIL.Image.open('path/to/image.png')
 
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
@@ -20,8 +20,8 @@ model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 logging.basicConfig(level=logging.INFO)
 
 # Telegram API credentials
-api_id = 27166309
-api_hash = 'cd4adea07c043878b111cd345d5b2f67'
+api_id = 
+api_hash = ''
 
 
 # Create a Telegram client
